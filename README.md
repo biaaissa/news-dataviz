@@ -41,3 +41,61 @@ Como grupos distintos de fontes (nacionais × internacionais) enquadram as elei�
 └── data/
     └── raw/                   # Parquet + JSON de metadados (ver "Dados")
 ```
+
+## Configuração do ambiente
+
+O notebook é o mesmo em Linux, WSL e Windows: a pasta `data/raw` é resolvida a partir da raiz do projeto, independente de onde o Jupyter foi aberto. Só a instalação muda.
+
+> **Antes de extrair de novo:** a extração de 01–30/10/2026 lê cerca de **90 GB** no BigQuery. Se alguém do grupo já tem o `.parquet` + `.json` em `data/raw/`, copie os dois arquivos para a sua `data/raw/`: o notebook detecta o raw e pula a query (não precisa de conta no Google Cloud para a exploração).
+
+### 1. Projeto no Google Cloud
+
+- Contas institucionais (ex.: `@unesp.br`) **não podem criar projetos**; use uma conta pessoal do Gmail.
+- Crie um projeto, ative a API do BigQuery e ajuste `PROJECT` na célula de configuração do notebook com o **ID** do projeto (é único globalmente).
+- Os primeiros 1 TiB de consulta por mês são gratuitos.
+
+### 2a. Windows (PowerShell ou Anaconda Prompt)
+
+```powershell
+# gcloud CLI (ou use o instalador: https://cloud.google.com/sdk/docs/install)
+winget install --id Google.CloudSDK -e
+# feche e abra o terminal para o comando gcloud ser reconhecido
+
+# Ambiente Python
+conda create -n news_dataviz python=3.12 -y
+conda activate news_dataviz
+pip install -r requirements.txt
+
+# Projeto e credenciais (substitua SEU_PROJECT_ID)
+gcloud auth login
+gcloud projects create SEU_PROJECT_ID          # pule se já criou pelo console
+gcloud config set project SEU_PROJECT_ID
+gcloud services enable bigquery.googleapis.com
+gcloud auth application-default login
+gcloud auth application-default set-quota-project SEU_PROJECT_ID
+```
+
+As credenciais usadas pelo Python ficam em `%APPDATA%\gcloud\application_default_credentials.json`.
+
+### 2b. Linux / WSL
+
+```bash
+# gcloud CLI sem sudo, instalado na home
+curl -sSLO https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-linux-x86_64.tar.gz
+tar -xzf google-cloud-cli-linux-x86_64.tar.gz -C ~ && rm google-cloud-cli-linux-x86_64.tar.gz
+echo 'source ~/google-cloud-sdk/path.bash.inc' >> ~/.bashrc && source ~/.bashrc
+
+conda create -n news_dataviz python=3.12 -y && conda activate news_dataviz
+pip install -r requirements.txt
+
+# mesmos comandos gcloud da seção Windows
+```
+
+No WSL o navegador não abre sozinho: copie a URL exibida no terminal para o navegador do Windows. As credenciais ficam em `~/.config/gcloud/application_default_credentials.json`.
+
+### 3. Rodar
+
+Abra `notebooks/01_extracao.ipynb` com o kernel `news_dataviz` e execute em ordem. Problemas comuns:
+
+- **`DefaultCredentialsError`**: faltou o `gcloud auth application-default login` (é diferente do `gcloud auth login`). Na tela de consentimento do Google, **marque todas as caixas** de permissão, inclusive a de acesso aos dados do Google Cloud. Depois, **reinicie o kernel**.
+- **`Project ... not found or permission denied`**: o `PROJECT` do notebook não existe ou pertence a outra conta. Confira com `gcloud projects list`.
