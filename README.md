@@ -1,14 +1,16 @@
-# Enquadramento das enchentes no RS (2024) em fontes nacionais × internacionais
+# Enquadramento das eleições no Brasil (2026) em fontes nacionais × internacionais
 
 Projeto de visualização de dados com base no [GDELT](https://www.gdeltproject.org/) (Global Knowledge Graph, GKG 2.1).
 
-Esta versão contém apenas a etapa de **extração**. Limpeza, métricas e visualizações serão adicionadas.
+A cobertura de eventos extremos pode apresentar variações significativas dependendo da origem do veículo de comunicação. Neste projeto, investigamos como grupos distintos de fontes (nacionais versus internacionais) enquadram as eleições no Brasil de 2026 em relação a **tom, temas, emoções e atores**.
+
+Esta versão contém apenas a etapa de **extração**. Nas etapas subsequentes serão adicionadas a limpeza de dados, o cálculo de métricas e a construção de visualizações comparativas.
 
 ## Pergunta
 
-Como grupos distintos de fontes (nacionais × internacionais) enquadram o mesmo evento em **tom, temas, emoções e atores**?
+Como grupos distintos de fontes (nacionais × internacionais) enquadram as eleições no Brasil de 2026 em **tom, temas, emoções e atores**?
 
-"Enquadramento" é medido por *proxies* do GDELT, não pela análise jornalística de conteúdo. 
+"Enquadramento" é medido por *proxies* disponibilizadas pelo GDELT (como V2Tone, V2Themes e GCAM), não pela análise jornalística de conteúdo.
 
 ## Dimensões e campos usados
 
@@ -22,10 +24,10 @@ Como grupos distintos de fontes (nacionais × internacionais) enquadram o mesmo 
 
 ## Recorte
 
-- **Evento:** enchentes no Rio Grande do Sul, 2024
-- **Janela:** 27/04/2024 a 27/05/2024 (fase aguda e de resgate)
-- **Decisão de custo:** a janela foi limitada para reduzir o volume lido no BigQuery (~120 GB estimados em dry run). A reconstrução de longo prazo **não** está coberta.
-- **Extração propositalmente ampla** (localização OU URL, termos em português e inglês). A relevância é refinada na etapa de limpeza, com funil de contagens.
+- **Evento:** eleições no Brasil, 2026
+- **Janela:** 01/10/2026 a 30/10/2026
+- **Extração propositalmente ampla**: (tema `ELECTION` **E** localização no Brasil) **OU** URL com termos de eleição em português, inglês e espanhol. A relevância é refinada na etapa de limpeza, com funil de contagens.
+- **Custo:** a cobrança no BigQuery depende das colunas lidas e dos dias varridos, não do filtro. O notebook faz *dry run* e aplica um teto (`MAX_GB`) antes de executar a query.
 
 ## Estrutura
 
@@ -39,5 +41,3 @@ Como grupos distintos de fontes (nacionais × internacionais) enquadram o mesmo 
 └── data/
     └── raw/                   # Parquet + JSON de metadados (ver "Dados")
 ```
-
-
