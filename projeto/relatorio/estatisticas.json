@@ -1,0 +1,985 @@
+{
+ "total_bruto": 95403,
+ "automaticas": 13423,
+ "analisados": 81980,
+ "veiculos": 3924,
+ "idiomas": 60,
+ "pct_internacional": 49.1,
+ "tom_medio": -1.01,
+ "tom_midia": {
+  "Internacional": -1.58,
+  "Nacional": -0.45
+ },
+ "globo_tom_com_auto": 2.16,
+ "auto_tom": 3.12,
+ "dia_pico": "2026-10-26",
+ "n_pico": 10230,
+ "idiomas_top": {
+  "Português": 42685,
+  "Espanhol": 14651,
+  "Inglês": 11516,
+  "Alemão": 2084,
+  "Italiano": 1657,
+  "Grego": 1164
+ },
+ "fases": [
+  {
+   "fase": "Pré-1º turno",
+   "midia": "Internacional",
+   "size": 2538,
+   "mean": -2.363286056565775
+  },
+  {
+   "fase": "Pré-1º turno",
+   "midia": "Nacional",
+   "size": 5104,
+   "mean": -0.6028539953096671
+  },
+  {
+   "fase": "1º turno (4–6/10)",
+   "midia": "Internacional",
+   "size": 6882,
+   "mean": -0.8458406638409207
+  },
+  {
+   "fase": "1º turno (4–6/10)",
+   "midia": "Nacional",
+   "size": 9474,
+   "mean": 0.38633762595592486
+  },
+  {
+   "fase": "Entre turnos",
+   "midia": "Internacional",
+   "size": 10008,
+   "mean": -1.722652095470168
+  },
+  {
+   "fase": "Entre turnos",
+   "midia": "Nacional",
+   "size": 17152,
+   "mean": -0.7175486180720291
+  },
+  {
+   "fase": "2º turno (25–26/10)",
+   "midia": "Internacional",
+   "size": 9652,
+   "mean": -0.9901444293596601
+  },
+  {
+   "fase": "2º turno (25–26/10)",
+   "midia": "Nacional",
+   "size": 5427,
+   "mean": -0.2158042215220528
+  },
+  {
+   "fase": "Pós-eleição",
+   "midia": "Internacional",
+   "size": 11146,
+   "mean": -2.2543166180259937
+  },
+  {
+   "fase": "Pós-eleição",
+   "midia": "Nacional",
+   "size": 4597,
+   "mean": -1.2734755295928204
+  }
+ ],
+ "atores": [
+  {
+   "ator": "Flávio Bolsonaro",
+   "mencoes": 27325,
+   "tom": -1.261,
+   "via_pessoa": 0.602,
+   "via_url": 0.575
+  },
+  {
+   "ator": "Lula",
+   "mencoes": 26631,
+   "tom": -0.92,
+   "via_pessoa": 0.174,
+   "via_url": 0.888
+  },
+  {
+   "ator": "Jair Bolsonaro",
+   "mencoes": 12751,
+   "tom": -1.769,
+   "via_pessoa": 0.989,
+   "via_url": 0.016
+  },
+  {
+   "ator": "Donald Trump",
+   "mencoes": 8516,
+   "tom": -2.041,
+   "via_pessoa": 0.67,
+   "via_url": 0.421
+  },
+  {
+   "ator": "Michelle Bolsonaro",
+   "mencoes": 791,
+   "tom": -0.491,
+   "via_pessoa": 0.987,
+   "via_url": 0.096
+  },
+  {
+   "ator": "Simone Tebet",
+   "mencoes": 628,
+   "tom": -0.198,
+   "via_pessoa": 0.998,
+   "via_url": 0.065
+  },
+  {
+   "ator": "Ronaldo Caiado",
+   "mencoes": 556,
+   "tom": 0.094,
+   "via_pessoa": 0.701,
+   "via_url": 0.3
+  },
+  {
+   "ator": "Geraldo Alckmin",
+   "mencoes": 553,
+   "tom": -1.423,
+   "via_pessoa": 0.609,
+   "via_url": 0.394
+  },
+  {
+   "ator": "Renan Santos",
+   "mencoes": 504,
+   "tom": -0.74,
+   "via_pessoa": 0.71,
+   "via_url": 0.29
+  },
+  {
+   "ator": "Tarcísio de Freitas",
+   "mencoes": 435,
+   "tom": 0.419,
+   "via_pessoa": 0.14,
+   "via_url": 0.88
+  },
+  {
+   "ator": "Romeu Zema",
+   "mencoes": 329,
+   "tom": -0.917,
+   "via_pessoa": 0.541,
+   "via_url": 0.462
+  },
+  {
+   "ator": "Fernando Haddad",
+   "mencoes": 232,
+   "tom": -0.256,
+   "via_pessoa": 0.276,
+   "via_url": 0.724
+  }
+ ],
+ "atores_midia": [
+  {
+   "ator": "Flávio Bolsonaro",
+   "midia": "Internacional",
+   "mencoes": 18388,
+   "tom": -1.547,
+   "via_pessoa": 0.881,
+   "via_url": 0.376
+  },
+  {
+   "ator": "Lula",
+   "midia": "Internacional",
+   "mencoes": 16363,
+   "tom": -1.246,
+   "via_pessoa": 0.283,
+   "via_url": 0.817
+  },
+  {
+   "ator": "Jair Bolsonaro",
+   "midia": "Internacional",
+   "mencoes": 12632,
+   "tom": -1.773,
+   "via_pessoa": 0.998,
+   "via_url": 0.007
+  },
+  {
+   "ator": "Lula",
+   "midia": "Nacional",
+   "mencoes": 10268,
+   "tom": -0.4,
+   "via_pessoa": 0.0,
+   "via_url": 1.0
+  },
+  {
+   "ator": "Flávio Bolsonaro",
+   "midia": "Nacional",
+   "mencoes": 8937,
+   "tom": -0.672,
+   "via_pessoa": 0.027,
+   "via_url": 0.985
+  },
+  {
+   "ator": "Donald Trump",
+   "midia": "Internacional",
+   "mencoes": 7648,
+   "tom": -2.153,
+   "via_pessoa": 0.746,
+   "via_url": 0.355
+  },
+  {
+   "ator": "Donald Trump",
+   "midia": "Nacional",
+   "mencoes": 868,
+   "tom": -1.052,
+   "via_pessoa": 0.0,
+   "via_url": 1.0
+  },
+  {
+   "ator": "Michelle Bolsonaro",
+   "midia": "Nacional",
+   "mencoes": 629,
+   "tom": -0.22,
+   "via_pessoa": 0.997,
+   "via_url": 0.105
+  },
+  {
+   "ator": "Simone Tebet",
+   "midia": "Nacional",
+   "mencoes": 605,
+   "tom": -0.169,
+   "via_pessoa": 0.998,
+   "via_url": 0.066
+  },
+  {
+   "ator": "Tarcísio de Freitas",
+   "midia": "Nacional",
+   "mencoes": 423,
+   "tom": 0.411,
+   "via_pessoa": 0.142,
+   "via_url": 0.879
+  },
+  {
+   "ator": "Ronaldo Caiado",
+   "midia": "Internacional",
+   "mencoes": 398,
+   "tom": -0.072,
+   "via_pessoa": 0.98,
+   "via_url": 0.023
+  },
+  {
+   "ator": "Renan Santos",
+   "midia": "Internacional",
+   "mencoes": 362,
+   "tom": -0.348,
+   "via_pessoa": 0.989,
+   "via_url": 0.011
+  },
+  {
+   "ator": "Geraldo Alckmin",
+   "midia": "Internacional",
+   "mencoes": 349,
+   "tom": -2.164,
+   "via_pessoa": 0.966,
+   "via_url": 0.04
+  },
+  {
+   "ator": "Geraldo Alckmin",
+   "midia": "Nacional",
+   "mencoes": 204,
+   "tom": -0.153,
+   "via_pessoa": 0.0,
+   "via_url": 1.0
+  },
+  {
+   "ator": "Romeu Zema",
+   "midia": "Internacional",
+   "mencoes": 191,
+   "tom": -0.888,
+   "via_pessoa": 0.932,
+   "via_url": 0.073
+  },
+  {
+   "ator": "Fernando Haddad",
+   "midia": "Nacional",
+   "mencoes": 164,
+   "tom": 0.075,
+   "via_pessoa": 0.0,
+   "via_url": 1.0
+  },
+  {
+   "ator": "Michelle Bolsonaro",
+   "midia": "Internacional",
+   "mencoes": 162,
+   "tom": -1.543,
+   "via_pessoa": 0.951,
+   "via_url": 0.062
+  },
+  {
+   "ator": "Ronaldo Caiado",
+   "midia": "Nacional",
+   "mencoes": 158,
+   "tom": 0.51,
+   "via_pessoa": 0.0,
+   "via_url": 1.0
+  },
+  {
+   "ator": "Renan Santos",
+   "midia": "Nacional",
+   "mencoes": 142,
+   "tom": -1.738,
+   "via_pessoa": 0.0,
+   "via_url": 1.0
+  },
+  {
+   "ator": "Romeu Zema",
+   "midia": "Nacional",
+   "mencoes": 138,
+   "tom": -0.958,
+   "via_pessoa": 0.0,
+   "via_url": 1.0
+  },
+  {
+   "ator": "Jair Bolsonaro",
+   "midia": "Nacional",
+   "mencoes": 119,
+   "tom": -1.338,
+   "via_pessoa": 0.025,
+   "via_url": 0.975
+  },
+  {
+   "ator": "Fernando Haddad",
+   "midia": "Internacional",
+   "mencoes": 68,
+   "tom": -1.055,
+   "via_pessoa": 0.941,
+   "via_url": 0.059
+  },
+  {
+   "ator": "Simone Tebet",
+   "midia": "Internacional",
+   "mencoes": 23,
+   "tom": -0.948,
+   "via_pessoa": 1.0,
+   "via_url": 0.043
+  },
+  {
+   "ator": "Tarcísio de Freitas",
+   "midia": "Internacional",
+   "mencoes": 12,
+   "tom": 0.705,
+   "via_pessoa": 0.083,
+   "via_url": 0.917
+  }
+ ],
+ "mannwhitney_p": 0.0,
+ "cohen_d": 0.448,
+ "temas_fase": {
+  "Pré-1º turno": {
+   "Florestas/Amazônia": 42.7,
+   "Candidato": 16.7,
+   "Imprensa": 20.7,
+   "Democracia": 18.7,
+   "Economia": 15.5,
+   "Educação": 21.6,
+   "Julgamento": 20.0,
+   "Conflito armado": 19.4,
+   "Corrupção": 10.8,
+   "Emprego": 15.5,
+   "Liberdades políticas": 15.8,
+   "Extremismo": 10.4,
+   "Segurança pública": 17.0,
+   "Preços": 11.5,
+   "Incerteza": 14.3,
+   "Crime": 14.3,
+   "Apoiadores": 9.1,
+   "Prisão": 10.2,
+   "Legislação": 15.3,
+   "Mortes": 6.6,
+   "Protesto": 4.4,
+   "Fraude eleitoral": 3.5
+  },
+  "1º turno (4–6/10)": {
+   "Florestas/Amazônia": 30.4,
+   "Candidato": 24.8,
+   "Imprensa": 15.5,
+   "Democracia": 16.1,
+   "Economia": 17.7,
+   "Educação": 23.6,
+   "Julgamento": 14.5,
+   "Conflito armado": 14.4,
+   "Corrupção": 12.3,
+   "Emprego": 23.5,
+   "Liberdades políticas": 12.5,
+   "Extremismo": 14.4,
+   "Segurança pública": 10.6,
+   "Preços": 11.3,
+   "Incerteza": 12.3,
+   "Crime": 12.2,
+   "Apoiadores": 8.9,
+   "Prisão": 9.3,
+   "Legislação": 8.6,
+   "Mortes": 5.6,
+   "Protesto": 4.2,
+   "Fraude eleitoral": 2.1
+  },
+  "Entre turnos": {
+   "Florestas/Amazônia": 44.7,
+   "Candidato": 15.8,
+   "Imprensa": 23.3,
+   "Democracia": 19.9,
+   "Economia": 24.5,
+   "Educação": 23.0,
+   "Julgamento": 20.3,
+   "Conflito armado": 21.8,
+   "Corrupção": 10.0,
+   "Emprego": 16.1,
+   "Liberdades políticas": 15.8,
+   "Extremismo": 14.5,
+   "Segurança pública": 12.5,
+   "Preços": 20.0,
+   "Incerteza": 14.2,
+   "Crime": 13.0,
+   "Apoiadores": 12.8,
+   "Prisão": 7.7,
+   "Legislação": 14.7,
+   "Mortes": 8.5,
+   "Protesto": 8.2,
+   "Fraude eleitoral": 0.9
+  },
+  "2º turno (25–26/10)": {
+   "Florestas/Amazônia": 39.7,
+   "Candidato": 28.6,
+   "Imprensa": 19.9,
+   "Democracia": 32.2,
+   "Economia": 28.0,
+   "Educação": 22.7,
+   "Julgamento": 13.9,
+   "Conflito armado": 19.7,
+   "Corrupção": 18.1,
+   "Emprego": 16.5,
+   "Liberdades políticas": 23.5,
+   "Extremismo": 21.7,
+   "Segurança pública": 10.7,
+   "Preços": 18.1,
+   "Incerteza": 18.5,
+   "Crime": 14.6,
+   "Apoiadores": 18.2,
+   "Prisão": 16.0,
+   "Legislação": 6.8,
+   "Mortes": 4.9,
+   "Protesto": 6.8,
+   "Fraude eleitoral": 2.1
+  },
+  "Pós-eleição": {
+   "Florestas/Amazônia": 37.6,
+   "Candidato": 31.9,
+   "Imprensa": 30.1,
+   "Democracia": 20.8,
+   "Economia": 21.2,
+   "Educação": 13.0,
+   "Julgamento": 29.5,
+   "Conflito armado": 15.7,
+   "Corrupção": 37.7,
+   "Emprego": 14.9,
+   "Liberdades políticas": 16.3,
+   "Extremismo": 21.1,
+   "Segurança pública": 28.7,
+   "Preços": 12.4,
+   "Incerteza": 10.9,
+   "Crime": 11.4,
+   "Apoiadores": 14.8,
+   "Prisão": 19.5,
+   "Legislação": 12.9,
+   "Mortes": 7.1,
+   "Protesto": 6.2,
+   "Fraude eleitoral": 12.0
+  }
+ },
+ "temas_tom": {
+  "Fraude eleitoral": {
+   "artigos": 3046,
+   "tom": -2.84
+  },
+  "Ataque cibernético": {
+   "artigos": 524,
+   "tom": -2.61
+  },
+  "Crime": {
+   "artigos": 10615,
+   "tom": -2.53
+  },
+  "Corrupção": {
+   "artigos": 14231,
+   "tom": -2.47
+  },
+  "Segurança pública": {
+   "artigos": 12559,
+   "tom": -2.42
+  },
+  "Prisão": {
+   "artigos": 9874,
+   "tom": -2.41
+  },
+  "Mortes": {
+   "artigos": 5600,
+   "tom": -2.33
+  },
+  "Vigilância": {
+   "artigos": 568,
+   "tom": -2.1
+  },
+  "Saúde/pandemia": {
+   "artigos": 1427,
+   "tom": -2.1
+  },
+  "Inflação": {
+   "artigos": 2755,
+   "tom": -2.1
+  },
+  "Redes sociais": {
+   "artigos": 3101,
+   "tom": -2.08
+  },
+  "Pobreza": {
+   "artigos": 2877,
+   "tom": -2.08
+  },
+  "Julgamento": {
+   "artigos": 16157,
+   "tom": -2.05
+  },
+  "Protesto": {
+   "artigos": 5252,
+   "tom": -1.98
+  },
+  "Extremismo": {
+   "artigos": 13696,
+   "tom": -1.84
+  },
+  "Mudança climática": {
+   "artigos": 2011,
+   "tom": -1.81
+  },
+  "Conflito armado": {
+   "artigos": 15204,
+   "tom": -1.79
+  },
+  "Legislação": {
+   "artigos": 9622,
+   "tom": -1.63
+  },
+  "Incerteza": {
+   "artigos": 11489,
+   "tom": -1.57
+  },
+  "Imprensa": {
+   "artigos": 18187,
+   "tom": -1.48
+  },
+  "Preços": {
+   "artigos": 12823,
+   "tom": -1.38
+  },
+  "Candidato": {
+   "artigos": 18967,
+   "tom": -1.35
+  },
+  "Economia": {
+   "artigos": 18280,
+   "tom": -1.25
+  },
+  "Democracia": {
+   "artigos": 17581,
+   "tom": -1.09
+  },
+  "Liberdades políticas": {
+   "artigos": 13662,
+   "tom": -1.08
+  },
+  "Florestas/Amazônia": {
+   "artigos": 32264,
+   "tom": -1.08
+  },
+  "Apoiadores": {
+   "artigos": 10690,
+   "tom": -0.96
+  },
+  "Emprego": {
+   "artigos": 14247,
+   "tom": -0.95
+  },
+  "Educação": {
+   "artigos": 17207,
+   "tom": -0.91
+  }
+ },
+ "idiomas_tom": {
+  "Francês": {
+   "artigos": 1156,
+   "tom": -2.6
+  },
+  "Alemão": {
+   "artigos": 2084,
+   "tom": -2.06
+  },
+  "Árabe": {
+   "artigos": 403,
+   "tom": -2.04
+  },
+  "Grego": {
+   "artigos": 1164,
+   "tom": -1.98
+  },
+  "Inglês": {
+   "artigos": 11516,
+   "tom": -1.94
+  },
+  "Chinês": {
+   "artigos": 947,
+   "tom": -1.69
+  },
+  "Turco": {
+   "artigos": 544,
+   "tom": -1.61
+  },
+  "Sérvio": {
+   "artigos": 405,
+   "tom": -1.46
+  },
+  "Italiano": {
+   "artigos": 1657,
+   "tom": -1.26
+  },
+  "Espanhol": {
+   "artigos": 14651,
+   "tom": -1.16
+  },
+  "Russo": {
+   "artigos": 925,
+   "tom": -0.67
+  },
+  "Português": {
+   "artigos": 42685,
+   "tom": -0.45
+  }
+ },
+ "ufs_top": [
+  {
+   "uf": "SP",
+   "artigos": 16130,
+   "tom": -0.792,
+   "saldo": 0.053
+  },
+  {
+   "uf": "DF",
+   "artigos": 13737,
+   "tom": -0.987,
+   "saldo": -0.084
+  },
+  {
+   "uf": "RJ",
+   "artigos": 7799,
+   "tom": -0.976,
+   "saldo": -0.0
+  },
+  {
+   "uf": "MG",
+   "artigos": 4774,
+   "tom": -0.245,
+   "saldo": 0.099
+  },
+  {
+   "uf": "PE",
+   "artigos": 4112,
+   "tom": -0.255,
+   "saldo": 0.203
+  },
+  {
+   "uf": "BA",
+   "artigos": 2823,
+   "tom": -0.573,
+   "saldo": 0.059
+  },
+  {
+   "uf": "MA",
+   "artigos": 2270,
+   "tom": -0.222,
+   "saldo": 0.072
+  },
+  {
+   "uf": "PR",
+   "artigos": 1735,
+   "tom": -0.626,
+   "saldo": 0.034
+  },
+  {
+   "uf": "AM",
+   "artigos": 1363,
+   "tom": -0.706,
+   "saldo": 0.062
+  },
+  {
+   "uf": "RS",
+   "artigos": 1300,
+   "tom": -0.587,
+   "saldo": 0.008
+  }
+ ],
+ "veiculos_tom": [
+  {
+   "veiculo": "terra.com.br",
+   "artigos": 896,
+   "tom": -1.1
+  },
+  {
+   "veiculo": "estadao.com.br",
+   "artigos": 1379,
+   "tom": -1.04
+  },
+  {
+   "veiculo": "brasil247.com",
+   "artigos": 2130,
+   "tom": -0.99
+  },
+  {
+   "veiculo": "gazetadopovo.com.br",
+   "artigos": 1256,
+   "tom": -0.94
+  },
+  {
+   "veiculo": "ebc.com.br",
+   "artigos": 530,
+   "tom": -0.89
+  },
+  {
+   "veiculo": "uol.com.br",
+   "artigos": 2735,
+   "tom": -0.86
+  },
+  {
+   "veiculo": "jornaldebrasilia.com.br",
+   "artigos": 1103,
+   "tom": -0.75
+  },
+  {
+   "veiculo": "ig.com.br",
+   "artigos": 1011,
+   "tom": -0.74
+  },
+  {
+   "veiculo": "revistaforum.com.br",
+   "artigos": 1569,
+   "tom": -0.68
+  },
+  {
+   "veiculo": "abril.com.br",
+   "artigos": 1025,
+   "tom": -0.67
+  },
+  {
+   "veiculo": "riotimesonline.com",
+   "artigos": 1160,
+   "tom": -0.66
+  },
+  {
+   "veiculo": "em.com.br",
+   "artigos": 767,
+   "tom": -0.62
+  },
+  {
+   "veiculo": "diariodepernambuco.com.br",
+   "artigos": 514,
+   "tom": -0.61
+  },
+  {
+   "veiculo": "infomoney.com.br",
+   "artigos": 626,
+   "tom": -0.52
+  },
+  {
+   "veiculo": "band.com.br",
+   "artigos": 518,
+   "tom": -0.52
+  },
+  {
+   "veiculo": "tribunadonorte.com.br",
+   "artigos": 564,
+   "tom": -0.33
+  },
+  {
+   "veiculo": "correiobraziliense.com.br",
+   "artigos": 1143,
+   "tom": -0.3
+  },
+  {
+   "veiculo": "r7.com",
+   "artigos": 931,
+   "tom": -0.3
+  },
+  {
+   "veiculo": "dgabc.com.br",
+   "artigos": 754,
+   "tom": -0.28
+  },
+  {
+   "veiculo": "correiodopovo.com.br",
+   "artigos": 737,
+   "tom": -0.24
+  },
+  {
+   "veiculo": "opovo.com.br",
+   "artigos": 625,
+   "tom": -0.23
+  },
+  {
+   "veiculo": "otempo.com.br",
+   "artigos": 1316,
+   "tom": -0.1
+  },
+  {
+   "veiculo": "correio24horas.com.br",
+   "artigos": 595,
+   "tom": 0.08
+  },
+  {
+   "veiculo": "globo.com",
+   "artigos": 6578,
+   "tom": 0.19
+  }
+ ],
+ "paises_top": {
+  "BR": 76600,
+  "US": 25401,
+  "AR": 12552,
+  "UK": 5432,
+  "FR": 4787,
+  "MX": 4774,
+  "CH": 4545,
+  "RS": 4133,
+  "CO": 3982,
+  "SP": 3594
+ },
+ "trump_internacional_pct": 89.8,
+ "trump_cooc": {
+  "Lula": 3675,
+  "Flávio Bolsonaro": 3839,
+  "Jair Bolsonaro": 4191
+ },
+ "atores_fase": {
+  "Donald Trump": {
+   "1º turno (4–6/10)": 1121,
+   "2º turno (25–26/10)": 1961,
+   "Entre turnos": 1502,
+   "Pré-1º turno": 590,
+   "Pós-eleição": 3342
+  },
+  "Flávio Bolsonaro": {
+   "1º turno (4–6/10)": 4649,
+   "2º turno (25–26/10)": 5573,
+   "Entre turnos": 8875,
+   "Pré-1º turno": 1451,
+   "Pós-eleição": 6777
+  },
+  "Jair Bolsonaro": {
+   "1º turno (4–6/10)": 2504,
+   "2º turno (25–26/10)": 3253,
+   "Entre turnos": 2830,
+   "Pré-1º turno": 838,
+   "Pós-eleição": 3326
+  },
+  "Lula": {
+   "1º turno (4–6/10)": 3974,
+   "2º turno (25–26/10)": 8235,
+   "Entre turnos": 8721,
+   "Pré-1º turno": 1456,
+   "Pós-eleição": 4245
+  }
+ },
+ "atores_tom_fase": {
+  "Donald Trump": {
+   "1º turno (4–6/10)": -1.33,
+   "2º turno (25–26/10)": -1.56,
+   "Entre turnos": -2.05,
+   "Pré-1º turno": -2.86,
+   "Pós-eleição": -2.42
+  },
+  "Flávio Bolsonaro": {
+   "1º turno (4–6/10)": -0.27,
+   "2º turno (25–26/10)": -0.92,
+   "Entre turnos": -1.15,
+   "Pré-1º turno": -1.61,
+   "Pós-eleição": -2.3
+  },
+  "Jair Bolsonaro": {
+   "1º turno (4–6/10)": -0.74,
+   "2º turno (25–26/10)": -1.22,
+   "Entre turnos": -2.16,
+   "Pré-1º turno": -2.33,
+   "Pós-eleição": -2.6
+  },
+  "Lula": {
+   "1º turno (4–6/10)": -0.43,
+   "2º turno (25–26/10)": -0.47,
+   "Entre turnos": -1.25,
+   "Pré-1º turno": -1.56,
+   "Pós-eleição": -1.35
+  }
+ },
+ "rede": {
+  "nos": 31,
+  "arestas": 125,
+  "grau_top": [
+   [
+    "Jair Bolsonaro",
+    25
+   ],
+   [
+    "Flávio Bolsonaro",
+    24
+   ],
+   [
+    "Donald Trump",
+    22
+   ],
+   [
+    "Lula",
+    21
+   ],
+   [
+    "Javier Milei",
+    13
+   ],
+   [
+    "Eduardo Bolsonaro",
+    12
+   ],
+   [
+    "Michelle Bolsonaro",
+    10
+   ],
+   [
+    "Fernanda Bolsonaro",
+    10
+   ]
+  ],
+  "intermediacao_top": [
+   [
+    "Michelle Bolsonaro",
+    0.3080459770114943
+   ],
+   [
+    "Jair Bolsonaro",
+    0.21645593869731808
+   ],
+   [
+    "Flávio Bolsonaro",
+    0.1858045977011495
+   ],
+   [
+    "Donald Trump",
+    0.1279501915708812
+   ],
+   [
+    "Lula",
+    0.10419540229885058
+   ],
+   [
+    "Deltan Dallagnol",
+    0.06666666666666667
+   ]
+  ]
+ }
+}
